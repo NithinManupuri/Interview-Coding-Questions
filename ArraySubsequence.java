@@ -46,11 +46,7 @@ public class ArraySubsequence {
               internal.add(arr[i]);
               outer.add(internal);
           }
-
-
-
     }
-
-    return  outer;
+ return  outer;
   }
 }
