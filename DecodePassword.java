@@ -33,12 +33,10 @@ public class DecodePassword {
                 result.append(c);
                 i--;
             }
-
         }
         return result.toString();
     }
     public static boolean isInRange(int n){
         return n>=65 &&n<=122;
     }
-
 }
