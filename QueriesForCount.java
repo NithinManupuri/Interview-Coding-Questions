@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class QueriesForCount {
     public static void main(String[] args) {
-        int[] nums = {1, 3, 4, 3, 9, 10};
+        int[] nums = {345, 604, 321, 433, 704, 470, 808, 718, 517, 811};
         Arrays.sort(nums);
         int left = countQueries(nums, 3, false);
         int right = countQueries(nums, 9, true);
 
-        int values = right - left + 1;
+        int values = right - left+1;
         System.out.print(values);
     }
 
