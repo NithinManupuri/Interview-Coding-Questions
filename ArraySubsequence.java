@@ -1,4 +1,4 @@
-package week3;
+package Ibm;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 public class ArraySubsequence {
   public static void main(String[] args){
       int[] arr={1,2,2,3};
-     // List<List<Integer>> list=subSequence(arr);
-      List<List<Integer>> list=dupSequence(arr);
+      List<List<Integer>> list=subSequence(arr);
+      // List<List<Integer>> list=dupSequence(arr);
       System.out.print(list);
 
   }
